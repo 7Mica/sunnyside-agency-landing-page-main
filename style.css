@@ -319,7 +319,7 @@ div.sections
   background-color: var(--soft-red);
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 460px) {
   section.informative-squares {
     display: flex;
   }
@@ -342,6 +342,14 @@ section.informative-squares
   bottom: 0;
   padding: 64px 28px;
   width: 100%;
+}
+
+@media screen and (min-width: 460px) {
+  section.informative-squares
+    .informative-square
+    .informative-square-content-body {
+    padding: 25px 14px;
+  }
 }
 
 @media screen and (min-width: 960px) {
@@ -386,7 +394,7 @@ section.informative-squares
     .informative-square
     .informative-square-content-body
     p {
-    font-size: 1rem;
+    margin-top: 25px;
   }
 }
 

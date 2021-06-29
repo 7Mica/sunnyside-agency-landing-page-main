@@ -213,28 +213,28 @@ header
 }
 
 @media screen and (min-width: 960px) {
-  div.sections section.articles .article-wrapper {
+  div.sections div.articles .article-wrapper {
     display: flex;
   }
 }
 
-div.sections section.articles .article-image img {
+div.sections div.articles .article-image img {
   width: 100%;
   display: block;
 }
 
-div.sections section.articles .article-content-body {
+div.sections div.articles .article-content-body {
   padding: 70px 30px;
   text-align: center;
 }
 
 @media screen and (min-width: 960px) {
-  div.sections section.articles .article-image {
+  div.sections div.articles .article-image {
     flex: 1 0 0;
     width: 100%;
   }
 
-  div.sections section.articles .article-content-body {
+  div.sections div.articles .article-content-body {
     flex: 1 0 0;
     width: 100%;
     padding: 0;
@@ -244,7 +244,7 @@ div.sections section.articles .article-content-body {
   }
 
   div.sections
-    section.articles
+    div.articles
     .article-content-body
     .article-content-body-wrapper {
     max-width: 435px;
@@ -253,7 +253,7 @@ div.sections section.articles .article-content-body {
   }
 
   div.sections
-    section.articles
+    div.articles
     .article-content-body
     .article-content-body-wrapper
     h2 {
@@ -262,20 +262,20 @@ div.sections section.articles .article-content-body {
   }
 }
 
-div.sections section.articles .article-content-body h2 {
+div.sections div.articles .article-content-body h2 {
   font-family: 'Fraunces', serif;
   text-align: center;
   font-size: 1.75rem;
 }
 
-div.sections section.articles .article-content-body p {
+div.sections div.articles .article-content-body p {
   line-height: 1.7;
   margin-top: 40px;
   color: var(--v-dark-grayish-blue);
   word-spacing: 4px;
 }
 
-div.sections section.articles .article-content-body a {
+div.sections div.articles .article-content-body a {
   margin-top: 45px;
   display: inline-block;
   font-family: 'Fraunces', serif;
@@ -284,7 +284,7 @@ div.sections section.articles .article-content-body a {
   position: relative;
 }
 
-div.sections section.articles .article-content-body a::after {
+div.sections div.articles .article-content-body a::after {
   content: '';
   display: block;
   height: 10px;
@@ -299,12 +299,12 @@ div.sections section.articles .article-content-body a::after {
   transition: background 500ms;
 }
 
-div.sections section.articles .article-content-body a:hover::after {
+div.sections div.articles .article-content-body a:hover::after {
   background-color: var(--yellow);
 }
 
 div.sections
-  section.articles
+  div.articles
   article.secondary-theme
   .article-content-body
   a::after {
@@ -312,7 +312,7 @@ div.sections
 }
 
 div.sections
-  section.articles
+  div.articles
   article.secondary-theme
   .article-content-body
   a:hover::after {
@@ -485,22 +485,22 @@ section.testimonials .client-testimonial .author p {
   font-size: 0.875rem;
 }
 
-section.visual-separator {
+div.visual-separator {
   display: flex;
   flex-wrap: wrap;
 }
 
-section.visual-separator picture {
+div.visual-separator picture {
   width: 50%;
 }
 
-section.visual-separator img {
+div.visual-separator img {
   display: block;
   width: 100%;
 }
 
 @media screen and (min-width: 960px) {
-  section.visual-separator picture {
+  div.visual-separator picture {
     flex: 0 0 25%;
     max-width: 25%;
   }

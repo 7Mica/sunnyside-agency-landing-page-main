@@ -561,22 +561,22 @@ footer.primary-footer div.secondary-navigation + .social-links {
 }
 
 .social-links .social-link.facebook {
-  background-image: url('/images/icon-facebook.svg');
+  background-image: url('images/icon-facebook.svg');
   background-repeat: no-repeat;
 }
 
 .social-links .social-link.twitter {
-  background-image: url('/images/icon-twitter.svg');
+  background-image: url('images/icon-twitter.svg');
   background-repeat: no-repeat;
 }
 
 .social-links .social-link.instagram {
-  background-image: url('/images/icon-instagram.svg');
+  background-image: url('images/icon-instagram.svg');
   background-repeat: no-repeat;
 }
 
 .social-links .social-link.pinterest {
-  background-image: url('/images/icon-pinterest.svg');
+  background-image: url('images/icon-pinterest.svg');
   background-repeat: no-repeat;
 }
 
